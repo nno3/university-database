@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background: #f4f6f8;
+    color: #1c2430;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    width: min(820px, calc(100% - 24px));
+    margin: 24px auto 48px;
+}
+
+h1 {
+    margin: 0 0 8px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+h2 {
+    margin: 28px 0 8px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.intro,
+#status {
+    line-height: 1.45;
+}
+
+#status.error {
+    color: #8c1d18;
+}
+
+.actions button,
+.question button {
+    border: 1px solid #1f4e79;
+    background: #fff;
+    color: #1f4e79;
+    border-radius: 20px;
+    padding: 8px 14px;
+    font-size: 14px;
+}
+
+.question {
+    margin: 0 0 10px;
+    padding: 14px 16px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(20, 32, 48, 0.1);
+}
+
+.question p {
+    margin: 0 0 8px;
+    line-height: 1.4;
+}
+
+.question.active {
+    outline: 2px solid #1f4e79;
+}
+
+pre {
+    margin: 10px 0 0;
+    padding: 10px 12px;
+    overflow: auto;
+    background: #f7f1e8;
+    border-radius: 8px;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    font-size: 14px;
+}
+
+th,
+td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #d5dde6;
+    text-align: left;
+}
+
+th {
+    background: #1f4e79;
+    color: #fff;
+}
+
+.empty {
+    color: #3d4a58;
+}
